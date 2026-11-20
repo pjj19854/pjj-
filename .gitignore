@@ -1,0 +1,25 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Office 临时锁文件（WPS/Word 打开时生成）
+~$*
+.~lock.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 模型权重与训练产物
+*.h5
+*.pkl
+*.pickle
+*.ckpt
+*.pt
+*.onnx
+
+# 系统
+.DS_Store
+Thumbs.db
